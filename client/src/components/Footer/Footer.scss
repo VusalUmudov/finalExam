@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 17, 36);
+    padding: 120px 0;
+
+    .footer_container {
+        width: 1080px;
+        display: flex;
+        gap: 20px;
+
+        h1 {
+            font-weight: 600;
+            font-size: 18px;
+            color: #ffff;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 14px;
+            color: #777777;
+        }
+
+        .about-us {
+            width: 475px;
+        }
+
+        .newsletter {
+            width: 475px;
+
+            input {
+                width: 300px;
+                padding: 5px;
+                outline: none;
+            }
+
+            button {
+                border: none;
+                height: 38px;
+                margin-top: 20px;
+                background-color: #f53f51;
+                color: white;
+                transition: 0.3s all;
+
+            }
+        }
+
+        .follow-us {
+            width: 190px;
+        }
+    }
+}
